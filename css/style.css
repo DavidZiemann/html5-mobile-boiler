@@ -1,0 +1,48 @@
+/* DEFAULT STYLES */
+
+.navBar {
+	margin-bottom: 0;
+	background-color: rgba(255,130,123,.9);
+	border-bottom: 0;
+	border-width: 0 0 1px;
+	min-height: 50px;
+	border: 1px solid transparent;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	-webkit-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.navBar > .title {
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	margin: 10px 0;
+	height: 30px;
+}
+
+.content {
+	padding: 70px 20px 20px 20px
+}
+
+#onlineStatus {
+	padding: 5px 10px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	margin-left: 5px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	font-size: 20px;
+}
+
+#onlineStatus.online {
+	color: green;
+}
+
+#onlineStatus.offline {
+	color: red;
+}
