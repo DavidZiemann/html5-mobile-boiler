@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# 2014-09-14:v1
+
+# Explicitly cached entries
+
+index.html
+
+css/normalize.css
+css/style.css
+
+js/main.js
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
